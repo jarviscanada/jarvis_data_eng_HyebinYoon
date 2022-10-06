@@ -33,15 +33,14 @@ case $cmd in
     echo 'Create requires username and password'
     exit 1
   fi
+	# already checked if container exist or not,
+	# only check if container is running
+	docker ps -f name=jrvs-psql
 
   #Create container
   docker pull postgres
 	docker volume create pgdata
-	docker run --name jrvs-psql -e POSTGRES_PASSWORD=$db_password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
-
-	# already checked if container exist or not,
-	# only check if container is running
-	docker ps -f name=jrvs-psql
+  docker run --name jrvs-psql -e POSTGRES_PASSWORD=$db_password -e POSTGRES_USER=$db_username -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
 
 	exit $?
 	;;
