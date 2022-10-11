@@ -111,27 +111,30 @@ feature/sql_queries (:negative_squared_cross_mark:):
 
 ## Database Modeling
 - `host_info` Table 
-| Attributes(Columns) | Data Type| Constraint | Description 
-| ------------- | ------------- |
-| id | SERIAL | Primary Key | Auto-incremented number to distinguish different computers(Primary Key)
-| hostname | VARCHAR  | UNIQUE & NOT NULL | Name of the computer 
-| cpu_number | INTEGER | NOT NULL | Number of CPUs on the computer
-| cpu_archiecture| VARCHAR | NOT NULL | CPU archiecture type
-| cpu_model | VARCHAR | NOT NULL | CPU model
-| cpu_mhz | DECIMAL | NOT NULL | clock speed in MHz
-| L2_cache | INTEGER | NOT NULL | L2 cache size in kB
-| total_mem | INTEGER | NOT NULL | Total memory on the host node in kB
-| `"timestamp"`| TIMESTAMP | NOT NULL | time when the data was entered 
 
-- `host_usage`
-| Attributes(Colums) | Data Type| Constraint | Description 
-| ------------- | ------------- |
-| host_id | SERIAL | Foreign Key | Foreign key referencing `id` from `host_info` table
-| memory_free | INTEGER | NOT NULL | Computer's available memory in kB
-| cpu_idle | INTEGER | NOT NULL | CPU processor idle time in %
-| disk_io | INTEGER | NOT NULL | Number of disk I/O
-| disk_available | INTEGER | NOT NULL | Total available disk space in MB
-| `"timestamp"`| TIMESTAMP | NOT NULL | time when the data was entered 
+| Attributes(Columns) | Data Type | Constraint | Description |
+| ------------------- | --------- | --------- | -------------------------------- |
+| id | SERIAL | Primary Key | Auto-incremented number to distinguish different computers(Primary Key) |
+| hostname | VARCHAR  | UNIQUE & NOT NULL | Name of the computer |
+| cpu_number | INTEGER | NOT NULL | Number of CPUs on the computer |
+| cpu_archiecture| VARCHAR | NOT NULL | CPU archiecture type |
+| cpu_model | VARCHAR | NOT NULL | CPU model |
+| cpu_mhz | DECIMAL | NOT NULL | clock speed in MHz |
+| L2_cache | INTEGER | NOT NULL | L2 cache size in kB |
+| total_mem | INTEGER | NOT NULL | Total memory on the host node in kB |
+| `"timestamp"`| TIMESTAMP | NOT NULL | time when the data was entered  |
+
+
+- `host_usage` Table
+
+| Attributes(Colums) | Data Type | Constraint | Description |
+| ------------------- | --------- | --------- | -------------------------------- |
+| host_id | SERIAL | Foreign Key | Foreign key referencing `id` from `host_info` table |
+| memory_free | INTEGER | NOT NULL | Computer's available memory in kB |
+| cpu_idle | INTEGER | NOT NULL | CPU processor idle time in % |
+| disk_io | INTEGER | NOT NULL | Number of disk I/O |
+| disk_available | INTEGER | NOT NULL | Total available disk space in MB |
+| `"timestamp"`| TIMESTAMP | NOT NULL | time when the data was entered |
 
 
 # Test
@@ -150,6 +153,7 @@ The source code utilized Git to manage the project versions and was pushed to th
 `feature branch` : adding a new feature to the product
 
 # Improvements
-- Implement the sql_queries feature 
+- Implement the sql_queries feature (planned)
 - Tracking Hardware and Software modification
 - Adding more columns to the tables
+- More detailed Architecture diagram
