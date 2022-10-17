@@ -94,7 +94,7 @@ professional_experience:
     company: "Ted Rogers School of Management "
     duration: "Jan 2022 - May 2022"
     description: "Provided front-line technical support for faculty, staff, and student. Troubleshooting hardware, and software issues, liaising with internal and external support resources. Solved tickets through Zendesk and worked as a team to prioritize tasks to deal with multiple conflicting dealines.  "
-  - title: " Assistant Store Manager"
+  - title: "Assistant Store Manager"
     company:  "Café Inside"
     duration: "May 2018 - Dec 2021"
     description: "Respond to customers complaints, questions, and feedback in professional matter. Priortize tasks, and schedule of employees. Utilize Microsoft Office products (Excel, PowerPoint and Outlook) to track daily sales, business documents and provide analysis for future sales. Maintain positive attitude while working in a fast pace environment to bring the best efficiency to the business."
@@ -111,11 +111,6 @@ education:
       - "Entry Scholarship"
       - "Participant of RU Hacks 2019"
 
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
 
 #Optional section
 others:
