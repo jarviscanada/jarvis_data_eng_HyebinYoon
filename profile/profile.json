@@ -1,0 +1,152 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Entry Scholarship",
+        "Participant of RU Hacks 2019"
+      ],
+      "degree": "Bachelor of Science (Honours), Computer Science",
+      "department": "Science",
+      "duration": "2017-2022",
+      "school_name": "Ryerson university"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Master of Engineering",
+      "department": "Electrical and Computer Engineering",
+      "duration": "2016-2018",
+      "school_name": "XYZ university"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon",
+  "highlighted_projects": [
+    {
+      "description": "Worked in a team of three to develop an E-commerce website to sell appliances to customers. Utilizing HTML, CSS, JavaScript, PHP, Apache, phpMyAdmin, and Google Map API. Implemented Drag / Drop on Shopping Cart icon functionality using JavaScript. Used Bootstrap framework. Responsive to different screen sizes (Phone, Tablet and pc).",
+      "git_url": "https://github.com/binyoon99/CPS630Pro",
+      "name": "Appliance Buy Website"
+    },
+    {
+      "description": "2D Platform game where users can control the character to reach the finish line, avoiding/killing monsters, collecting coins and avoid from falling off the platform. Available in Windows and Mac operating systems.Used Unity Engine to develop the game in a 2-Dimension space.Implemented Rigidbody, SpriteRenderer, Animator, AudioClip and Collider in C#. Gathered user feedback and integrated it into product development and maintenance. Applied basic physic and game theory. ",
+      "git_url": "https://github.com/binyoon99/Binrio-Platform-Game",
+      "name": "Unity 2D Pixel Games"
+    },
+    {
+      "description": "Collaborated with a team of two to develop a lyric bot that predicts a name of the song from inputted lyric by the users. Bot uses Python API to provide information to the users, including the lyrics, album, and artist of the predicted song. Used a Python package, beautiful soup, to parse and extract data from HTML lyric websites and compare the data to given information by the users. Responsive to users? chat with various commands. Utilized GitHub to collab.",
+      "git_url": "https://github.com/binyoon99/bintonBot",
+      "name": "Discord Lyric Bot"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Hyebin (Heather) Yoon",
+  "others": [
+    {
+      "bullets": [
+        "1st place Champion in Ontario, Canada",
+        "https://gao.bluegolf.com/bluegolfw/gao15/event/gao1526/index.htm"
+      ],
+      "title": "2015 ONTARIO JUVENILE (U17) Golf GIRLS' CHAMPION"
+    },
+    {
+      "bullets": [
+        " Created digital contents related to personal hobbies and interests",
+        " Collaborated with multiple brands to promote their products to the fans"
+      ],
+      "title": "Content Creator"
+    },
+    {
+      "bullets": [
+        "Junior Amateur Golf player (2008~2016)",
+        "Casual Gamer",
+        "Coffee Lover"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "Sept 2022-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Ted Rogers School of Management ",
+      "description": "Provided front-line technical support for faculty, staff, and student. Troubleshooting hardware, and software issues, liaising with internal and external support resources. Solved tickets through Zendesk and worked as a team to prioritize tasks to deal with multiple conflicting dealines.  ",
+      "duration": "Jan 2022 - May 2022",
+      "title": "Information Technology Support Helpdesk"
+    },
+    {
+      "company": "Café Inside",
+      "description": "Respond to customers complaints, questions, and feedback in professional matter. Priortize tasks, and schedule of employees. Utilize Microsoft Office products (Excel, PowerPoint and Outlook) to track daily sales, business documents and provide analysis for future sales. Maintain positive attitude while working in a fast pace environment to bring the best efficiency to the business.",
+      "duration": "May 2018 - Dec 2021",
+      "title": " Assistant Store Manager"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "React",
+      "Node.js / Express.js",
+      "Data Structures",
+      "SpringBoot",
+      "Docker",
+      "Firebase"
+    ],
+    "familiar": [
+      "NumPy",
+      "Docker",
+      "MongoDB",
+      "C#",
+      "Unity"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "JavaScript",
+      "HTML/CSS"
+    ]
+  },
+  "summary": "I recently graduated from Ryerson University with a Bachelor of Science (Honours) in  Computer Science, and I intend to venture into Software development and Cloud engineering. I have studied software engineering, software project management, algorithm, web development, discrete mathematics, data structure, data mining, database system, data science, computer network and security, and artificial intelligence. From an early age, I was always interested in becoming a developer and further extending my knowledge to become a cloud engineer, just like my father. Not to mention, I?ve developed various apps as a side project during my five years of study and acquired practical experience with Java,  JavaScript, SQL, and HTML/CSS. Currently, I?m working as a Software Developer at Jarvis Consulting Group in the SDE team and making the most of the experience at Jarvis Consulting Group. Altogether, I?m more than excited to use my knowledge and abilities to seek new opportunities and bring the best out of me for the new journey."
+}
