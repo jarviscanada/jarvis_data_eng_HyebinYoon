@@ -7,3 +7,7 @@ target/
 *.iml
 .idea/
 .eclipse
+
+log/
+
+intellij-java-google-style.xml
