@@ -8,7 +8,11 @@ target/
 .idea/
 .eclipse
 
+
+./grep/log
 log/
+
+intellij-java-google-style.xml
 
 
 intellij-java-google-style.xml
