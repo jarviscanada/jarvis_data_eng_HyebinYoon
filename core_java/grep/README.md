@@ -5,7 +5,13 @@ tested using various test cases on the main method and utilized JUNIT testing. T
 
 
 ### Technologies Used: 
-Core Java, Maven, SLF4J/Log4j2 libraries, JUnit/Stream API, Lambda, IntelliJ IDE, and Docker
+- Core Java
+- Maven
+- SLF4J/Log4j2 libraries
+- JUnit/Stream API
+- Lambda
+- IntelliJ IDE
+- Docker
 
 # Quick Start
 Application accepts the following three arguments: regex rootPath outFile
