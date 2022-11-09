@@ -12,8 +12,8 @@ to PostgreSQL RDBMS using Java library, Data Access Object (DAO), Data Transfer 
 - DBeaver
 - DAO, DTO and repository design patterns 
 
-# Implementaiton
-## ER Diagram![jdbc_er_diagram](./assets/jdbc_er_diagram.png?raw=true)
+## ER Diagram
+![jdbc_er_diagram](./assets/jdbc_er_diagram.png?raw=true)
 ###### figure1: ER diagram generated using DBeaver
 
 ## Design Patterns
