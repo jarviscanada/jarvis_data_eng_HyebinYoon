@@ -8,8 +8,8 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon
 summary:
   I recently graduated from Ryerson University with a Bachelor of Science (Honours) in  Computer Science, and I intend to venture into Software development and Cloud engineering. 
   I have studied software engineering, software project management, algorithm, web development, discrete mathematics, data structure, data mining, database system, data science, computer network and security, and artificial intelligence. 
-  From an early age, I grew up looking up to my father, who was a Software Enginer, and  always interested in becoming a developer and further extending my knowledge to become a cloud engineer.
-  My passion extended to my free time and developed various applications to assist me in my hobby during my five years of study and acquired practical experience with Java, JavaScript, SQL, and HTML/CSS. 
+  From an early age, I grew up looking up to my father, a Software Engineer, and always interested in becoming a developer and further extending my knowledge to become a cloud engineer.
+  My passion extended to my free time, which led me to develop various applications to assist me in my hobby during my five years of study and acquired practical experience with Java, JavaScript, SQL, and HTML/CSS. 
   Currently, I'm working as a Software Developer at Jarvis Consulting Group and proudly say I'm making the most of the experience working as my dream job. 
   Altogether, I'm more than excited to use my knowledge and abilities to seek new opportunities and bring the best out of me for the new journey.
 
@@ -129,7 +129,7 @@ others:
     bullets:
       - " Created digital contents related to personal hobbies and interests"
       - " Collaborated with multiple brands to promote their products to the fans"
-  - title: "Activities/Hobbies"
+  - title: "Activities/Hobbies"ß
     bullets:
       - "Junior Amateur Golf player (2008~2016)"
       - "Casual Gamer"
