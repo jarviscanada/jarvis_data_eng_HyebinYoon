@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.*;
 })
 public class UserMention {
     @JsonProperty("id")
-    private int id;
+    private long id;
     @JsonProperty("id_str")
     private String idStr;
     @JsonProperty("indices")
@@ -25,11 +25,11 @@ public class UserMention {
     private String screenName;
 
     @JsonGetter
-    public int getId() {
+    public long getId() {
         return id;
     }
     @JsonSetter
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
     @JsonGetter
