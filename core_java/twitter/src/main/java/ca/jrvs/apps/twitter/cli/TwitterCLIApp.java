@@ -6,9 +6,14 @@ import ca.jrvs.apps.twitter.dao.CrdDao;
 import ca.jrvs.apps.twitter.dao.TwitterDao;
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
 import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
+import ca.jrvs.apps.twitter.model.Tweet;
 import ca.jrvs.apps.twitter.service.Service;
 import ca.jrvs.apps.twitter.service.TwitterService;
+import ca.jrvs.apps.twitter.util.JsonUtil;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
 
 public class TwitterCLIApp {
 
@@ -40,7 +45,53 @@ public class TwitterCLIApp {
     This method will be called by the `main` method. It parses `args` and calls the controller methods.
     It also prints tweet(s) returned by controller methods.
      */
-    public void run(String[] args){
+    public void run(String[] args) {
 
+        // if args.size = 0 or 1 : invalid
+        // args[0] = post|show|delete
+        // args[1] = [options] like fields1, fields2
+        // Example :
+        // postTweet : jrvs/twitter_app post "test post" "43:79"
+        // showTweet : jrvs/twitter_app show 1276568976764686343
+        // deleteTweet jrvs/twitter_app delete 1200145224103841792
+
+        if (args.length == 0 || args.length == 1){
+            throw new IllegalArgumentException(USAGE);
+        }
+
+        switch (args[0].toLowerCase()){
+            case "post":
+                printTweet(controller.postTweet(args)); // return Tweet obj
+                break;
+            case "show" :
+                printTweet(controller.showTweet(args)); // return Tweet obj
+                break;
+            case "delete":
+                printTweet(controller.deleteTweet(args)); // return List<Tweet>
+                break;
+
+            default :
+                throw new IllegalArgumentException(USAGE);
+
+        }
+    }
+
+    private void printTweet(Tweet tweet) {
+        try {
+            System.out.println(JsonUtil.toJson(tweet, true, true));
+        }
+        catch (JsonProcessingException e){
+            throw new RuntimeException("Unable to convert tweet object to string", e);
+        }
+    }
+    private void printTweet(List<Tweet> tweets){
+        try {
+            for (Tweet tweet : tweets){
+                System.out.println(JsonUtil.toJson(tweet, true, true));
+            }
+        }
+        catch (JsonProcessingException e){
+            throw new RuntimeException("Unable to convert tweet object to string", e);
+        }
     }
 }
