@@ -116,10 +116,9 @@ public class TwitterServiceIntTest {
         //invalid field-testing
         try{
             service.showTweet(id, invalidFields);
-            fail();
         }
         catch(IllegalArgumentException e){
-            final String expected = "_a idd id_string txt entity ";
+            final String expected = "_a idd id_string txt entity";
             assertEquals(expected, e.getMessage());
         }
 

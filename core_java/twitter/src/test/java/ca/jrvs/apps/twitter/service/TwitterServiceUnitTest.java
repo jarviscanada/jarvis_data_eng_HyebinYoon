@@ -136,6 +136,7 @@ public class TwitterServiceUnitTest {
             fail();
         }
         catch(IllegalArgumentException e){
+            System.out.println("hello");
             final String expected = "_a idd id_string txt entity ";
             assertEquals(expected, e.getMessage());
         }

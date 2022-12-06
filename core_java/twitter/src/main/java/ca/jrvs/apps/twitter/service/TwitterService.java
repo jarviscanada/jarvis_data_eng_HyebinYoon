@@ -71,11 +71,12 @@ public class TwitterService implements Service{
                 incorrectFields.add(field);
             }
         }
-
+        System.out.println("hello");
         if (incorrectFields.size()!=0){
             StringBuilder exceptionMessage = new StringBuilder();
             for (String incorrectField : incorrectFields){
                 exceptionMessage.append(" " +incorrectField);
+                System.out.println(exceptionMessage.toString());
 
             }
             throw new IllegalArgumentException(exceptionMessage.toString());
