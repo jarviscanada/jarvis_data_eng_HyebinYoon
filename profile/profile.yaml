@@ -44,12 +44,12 @@ skills:
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/main/linux_sql"
+    git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: The Linux Cluster Monitoring Agent (LCMA) is a cluster monitoring software tool created for the Linux Cluster Administration (LCA) team. The tool's purpose is to manage and record hardware specifications and resource usage of their Linux clusters.
   - name: "Core Java Apps"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/main/core_java"
+    git_url: "/core_java"
     description:
       # - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
       - "JDBC App: The Java Database Connectivity (JDBC) application was developed to create a connection between a Java application and to PostgreSQL RDBMS using Java library, Data Access Object (DAO), Data Transfer Object (DTO) and Repository design pattern."
