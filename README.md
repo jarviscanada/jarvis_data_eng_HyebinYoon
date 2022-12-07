@@ -47,10 +47,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon
 
 
 ## Miscellaneous
-- 1st place Champion in Ontario, Canada
-- https://gao.bluegolf.com/bluegolfw/gao15/event/gao1526/index.htm
--  Created digital contents related to personal hobbies and interests
--  Collaborated with multiple brands to promote their products to the fans
-- Junior Amateur Golf player (2008~2016)
+
+- 1st place Ontario Champion in Under 17 Girl's Amateur Golf Tournament 
+- Created digital contents related to personal hobbies and interests and collaborated with multiple brands to promote their products to the fans
+- Golfer
 - Casual Gamer
 - Coffee Lover
