@@ -47,6 +47,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon
 
 
 ## Miscellaneous
+
 - 1st place Ontario Champion in Under 17 Girl's Amateur Golf Tournament 
 - Created digital contents related to personal hobbies and interests and collaborated with multiple brands to promote their products to the fans
 - Golfer
