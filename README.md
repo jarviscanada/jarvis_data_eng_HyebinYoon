@@ -15,9 +15,9 @@ I recently graduated from Ryerson University with a Bachelor of Science (Honours
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon](https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/main/linux_sql)]: The Linux Cluster Monitoring Agent (LCMA) is a cluster monitoring software tool created for the Linux Cluster Administration (LCA) team. The tool's purpose is to manage and record hardware specifications and resource usage of their Linux clusters.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/main/linux_sql)]: The Linux Cluster Monitoring Agent (LCMA) is a cluster monitoring software tool created for the Linux Cluster Administration (LCA) team. The tool's purpose is to manage and record hardware specifications and resource usage of their Linux clusters.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/main/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HyebinYoon/tree/main/core_java)]:
       
   - JDBC App: The Java Database Connectivity (JDBC) application was developed to create a connection between a Java application and to PostgreSQL RDBMS using Java library, Data Access Object (DAO), Data Transfer Object (DTO) and Repository design pattern.
   - Grep App: The Grep Application imitates Linux grep command. From a given root directory, the grep app search through all the files in the folder and the sub-folders to find text patterns and output matched lines to a specific file.
