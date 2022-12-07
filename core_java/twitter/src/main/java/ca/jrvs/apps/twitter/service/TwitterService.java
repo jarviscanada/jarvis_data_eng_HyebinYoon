@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@org.springframework.stereotype.Service
 public class TwitterService implements Service{
 
     private CrdDao dao;
@@ -63,24 +64,24 @@ public class TwitterService implements Service{
             throw new IllegalArgumentException("Tweet id must be numerical values");
         }
 
-        if (fields!=null){return null;}
+        if (fields!=null){
+            for (String field : fields){
+                if (correctFields.contains(field)){continue;}
+                else{
+                    incorrectFields.add(field);
+                }
+            }
+            if (incorrectFields.size()!=0){
+                StringBuilder exceptionMessage = new StringBuilder();
+                for (String incorrectField : incorrectFields){
+                    exceptionMessage.append(" " +incorrectField);
 
-        for (String field : fields){
-            if (correctFields.contains(field)){continue;}
-            else{
-                incorrectFields.add(field);
+                }
+                throw new IllegalArgumentException(exceptionMessage.toString());
             }
         }
-        System.out.println("hello");
-        if (incorrectFields.size()!=0){
-            StringBuilder exceptionMessage = new StringBuilder();
-            for (String incorrectField : incorrectFields){
-                exceptionMessage.append(" " +incorrectField);
-                System.out.println(exceptionMessage.toString());
 
-            }
-            throw new IllegalArgumentException(exceptionMessage.toString());
-        }
+
         return (Tweet) dao.findById(id);
     }
 

@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.cli;
+package ca.jrvs.apps.twitter;
 
 import ca.jrvs.apps.twitter.controller.Controller;
 import ca.jrvs.apps.twitter.controller.TwitterController;
@@ -12,9 +12,11 @@ import ca.jrvs.apps.twitter.service.TwitterService;
 import ca.jrvs.apps.twitter.util.JsonUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class TwitterCLIApp {
 
     public static final String USAGE = "USAGE TwitterCLIApp post|show|delete [options]";
