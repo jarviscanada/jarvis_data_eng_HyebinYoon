@@ -3,6 +3,7 @@ package ca.jrvs.apps.twitter.controller;
 import ca.jrvs.apps.twitter.model.Tweet;
 import ca.jrvs.apps.twitter.service.Service;
 import ca.jrvs.apps.twitter.util.TweetUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +18,7 @@ public class TwitterController implements Controller {
 
     private Service service;
 
-    //@AutoWired
+    @Autowired
     public TwitterController(Service service){ this.service = service;}
 
     @Override

@@ -35,10 +35,13 @@ public class TwitterCLIApp {
         System.out.println(consumerKey+"|"+consumerSecret+"|"+accessToken+"|"+tokenSecret);
         //Create components
         HttpHelper httpHelper = new TwitterHttpHelper(consumerKey, consumerSecret, accessToken, tokenSecret);
-        CrdDao dao = new TwitterDao(httpHelper);
-        Service service = new TwitterService(dao);
-        Controller controller = new TwitterController(service);
-        TwitterCLIApp app = new TwitterCLIApp(controller);
+//        CrdDao dao = new TwitterDao(httpHelper);
+//        Service service = new TwitterService(dao);
+//        Controller controller = new TwitterController(service);
+//        TwitterCLIApp app = new TwitterCLIApp(controller);
+        // Instead manually inserting dependency, I can now use spring and do the following instead :
+        TwitterCLIApp app = new TwitterCLIApp(
+                new TwitterController(new TwitterService(new TwitterDao(httpHelper))));
 
         //start the app
         app.run(args);
