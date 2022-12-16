@@ -38,4 +38,17 @@ public class ValidAnagram {
     return true;
 
     }
+
+    /**
+     * Check whether two strings are anagrams of each other by counting frequency.
+     * assumption that the set of possible characters in both strings is small. that the characters are stored using 8 bit and there can be 256 possible characters.
+     *
+     * So count the frequency of the characters and if the frequency of characters in both strings are the same, they are anagram of each other.
+     * @param s
+     * @param s
+     * @return
+     */
+    public boolean isAnagramFrequency(String s , String t){
+        return false;
+    }
 }
